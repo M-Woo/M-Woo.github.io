@@ -97,6 +97,26 @@ h1, h2, h3, h4, h5, h6 {
 	color: black;
 }
 
+.navbar-nav{
+		margin-left: 40%;
+}
+
+/* ==========================================================================
+   misc
+   ========================================================================== */
+.portCont{
+	height: 100vh;
+}
+
+/*.aboutCont{
+	height: 100vh;
+}*/
+
+
+
+
+
+
 /* ==========================================================================
    Wrap Sections
    ========================================================================== */
@@ -120,13 +140,13 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: contain;
 }
 
 #headerwrap h1 {
 	color:black;
 	padding-top: 10px;
-	padding-bottom: 20px;
+	padding-bottom: 5px;
 	letter-spacing: 4px;
 	font-size: 80px;
 	font-weight: 800;
@@ -217,6 +237,15 @@ h1, h2, h3, h4, h5, h6 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.aboutImage{
+	max-height: 200px;
+	max-width: 200px;
+	border-radius: 200px;
+}
+.aboutText{
+	padding-bottom: 20px;
 }
 
 
