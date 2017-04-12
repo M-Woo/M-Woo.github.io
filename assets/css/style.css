@@ -7,6 +7,10 @@
  * Date: 04-20-2014
  * URL: 
  */
+
+.icon {
+    padding-left: 25%;
+}
 /* ==========================================================================
    Resume Button
    ========================================================================== */
@@ -248,6 +252,9 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
+.portText{
+	padding-bottom: 20px;
+}
 .aboutImage{
 	max-height: 200px;
 	max-width: 200px;
