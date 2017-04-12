@@ -33,9 +33,9 @@
 }
 
 ::selection {
-    background: #16a085;
-    color: #a4003a;
-    text-shadow: none;
+    background: white;
+    color: none;
+    text-shadow: 0 0 40px black;
 }
 
 /*
@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
 	height: 100vh;
 }
 .techCont{
-
+	height: 60vh;
 }
 
 /*.aboutCont{
