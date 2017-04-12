@@ -7,7 +7,13 @@
  * Date: 04-20-2014
  * URL: 
  */
+/* ==========================================================================
+   Resume Button
+   ========================================================================== */
 
+.resumeBtn{
+	margin-top: 15px;
+}
 
 /* ==========================================================================
    Base Styles, Bootstrap Modifications & Fonts Import
@@ -250,6 +256,13 @@ h1, h2, h3, h4, h5, h6 {
 .aboutText{
 	padding-bottom: 20px;
 }
+.aboutPara{
+	padding-top: 5%;
+}
+.skillText{
+	padding-bottom: 20px;
+
+}
 
 
 
@@ -266,4 +279,8 @@ h1, h2, h3, h4, h5, h6 {
 .portImage{
 	max-height: 200px; 
 	max-width: 350px;
+	min-height:200px; 
+	min-width:350px;
+	margin: 8%;
+	background-size: auto;
 }
