@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-nav{
-		margin-left: 40%;
+	margin-left: 36%;
 }
 
 /* ==========================================================================
@@ -106,6 +106,9 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 .portCont{
 	height: 100vh;
+}
+.techCont{
+
 }
 
 /*.aboutCont{
@@ -123,8 +126,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #headerwrap {
 	background: url(http://res.cloudinary.com/dy6bqhnor/image/upload/v1491603545/seattle_skyline_x8xru5.png) no-repeat center top;
-	margin-top: -70px;
-	padding-top: 220px;
+	margin-top: 100px;
+	/*padding-top: 220px;*/
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
@@ -145,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #headerwrap h1 {
 	color:black;
-	padding-top: 10px;
+	/*padding-top: -100px;*/
 	padding-bottom: 5px;
 	letter-spacing: 4px;
 	font-size: 80px;
@@ -258,4 +261,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .gallery img:hover {
 	opacity: 0.4;
+}
+
+.portImage{
+	max-height: 200px; 
+	max-width: 350px;
 }
