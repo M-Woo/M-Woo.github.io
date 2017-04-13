@@ -1,5 +1,5 @@
-$(document).ready(function() {
-    $('#trigger').click(function(){
-      $("#dialog").dialog();
-    }); 
-  });   
+// $(document).ready(function() {
+//     $('#trigger').click(function(){
+//       $("#dialog").dialog();
+//     }); 
+//   });   
