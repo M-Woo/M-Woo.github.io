@@ -19,6 +19,10 @@
 
 .icon {
     padding-left: 25%;
+    filter: grayscale(100%);
+}
+.icon:hover{
+	filter: grayscale(0%);
 }
 .icon2:hover {
     background-color: red;
@@ -90,11 +94,11 @@ body {
 }
 #head{
 	font-family: 'Amatic SC', cursive !important;
-	font-weight: 1000;
+	/*font-weight: 800 !important;*/
 	letter-spacing: 3px;
 }
 
- h2, h3, h4, h5, h6, p, a, input {
+ h1, h2, h3, h4, h5, h6, p, a, input {
 	font-family: 'Julius Sans One', sans-serif !important;
 	font-weight: 1000;
     color: black;
@@ -125,7 +129,8 @@ body {
 }
 
 .navbar-nav{
-	margin-left: 35%;
+	margin-left: 33%;
+	font-size: 18px;
 }
 
 /* ==========================================================================
@@ -152,7 +157,7 @@ body {
    ========================================================================== */
 
 #headerwrap {
-	background: url(http://res.cloudinary.com/dy6bqhnor/image/upload/v1492106145/paint-splatter-8_copy_zxgzwu.png) no-repeat center top;
+	background: url(http://res.cloudinary.com/dy6bqhnor/image/upload/v1492108381/paint-splatter-8_copy_xjaxdn.png) no-repeat center top;
 	margin-top: 100px;
 	/*padding-top: 220px;*/
 	text-align:center;
@@ -173,7 +178,7 @@ body {
     background-size: contain;
 }
 #portfolioImage{
-	/*background: url(http://www.onlygfx.com/wp-content/uploads/2016/08/paint-splatter-3.png) no-repeat center top;*/
+	/*background: url(http://res.cloudinary.com/dy6bqhnor/image/upload/v1492108869/paint-splatter-1_copy_ciugyc.png) no-repeat center top;*/
 	/*margin-top: 100px;*/
 	/*padding-top: 220px;*/
 	text-align:center;
@@ -192,6 +197,27 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: contain;
+}
+#skillsImage{
+	/*background: url(http://res.cloudinary.com/dy6bqhnor/image/upload/v1492109779/skills_image_hvn7el.png) no-repeat center top;*/
+	/*margin-top: 100px;*/
+	/*padding-top: 220px;*/
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	/*min-height: 650px;*/
+	height: 70vh;
+	/*width: 100%;*/
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #headerwrap h1 {
@@ -322,10 +348,10 @@ body {
 }
 
 .portImage{
-	max-height: 200px; 
-	max-width: 350px;
-	min-height:200px; 
-	min-width:350px;
-	margin: 8%;
+	max-height: 220px; 
+	max-width: 380px;
+	min-height:220px; 
+	min-width:380px;
+	margin: 5%;
 	background-size: auto;
 }
