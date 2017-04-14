@@ -95,7 +95,7 @@ body {
 #head{
 	font-family: 'Amatic SC', cursive !important;
 	/*font-weight: 800 !important;*/
-	letter-spacing: 3px;
+	letter-spacing: 10px !important;
 }
 
  h1, h2, h3, h4, h5, h6, p, a, input {
@@ -206,7 +206,7 @@ body {
 	background-attachment: relative;
 	background-position: center center;
 	/*min-height: 650px;*/
-	height: 70vh;
+	height: 60vh;
 	/*width: 100%;*/
 	
     -webkit-background-size: 100%;
@@ -319,6 +319,13 @@ body {
 .portText{
 	padding-bottom: 20px;
 }
+.port{
+	filter: grayscale(100%);
+}
+.port:hover{
+	filter: grayscale(0%);
+}
+
 .aboutImage{
 	max-height: 200px;
 	max-width: 200px;
@@ -343,15 +350,142 @@ body {
 	margin-top: 30px;
 }
 
-.gallery img:hover {
+/*.gallery img:hover {
 	opacity: 0.4;
-}
+}*/
 
 .portImage{
 	max-height: 220px; 
 	max-width: 380px;
 	min-height:220px; 
 	min-width:380px;
-	margin: 5%;
+	/*margin: 5%;*/
 	background-size: auto;
 }
+.flipImage{
+	margin: 5%;
+	margin-left: 15%;
+}
+
+/*FLIP ANIMATION*/
+
+.flip-container {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+	/*border: 1px solid #ccc;*/
+}
+
+.flip-container:hover .flipper,  
+.flip-container.hover .flipper {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 380px;
+	height: 220px;
+}
+
+.flipper {
+	-webkit-transition: 2.0s;
+	-webkit-transform-style: preserve-3d;
+
+	-moz-transition: 0.0s;
+	-moz-transform-style: preserve-3d;
+  
+  -o-transition: 2.0s;
+	-o-transform-style: preserve-3d;
+
+	transition: 2.0s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+.front, .back {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.front {
+	/*background: url(http://davidwalsh.name/demo/dwflip.jpg) 0 0 no-repeat;*/
+	z-index: 2;
+}
+
+.back {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+
+	background: white;
+}
+.back{
+	padding-top: 15px;
+
+}
+.backBtn{
+	margin: 5%;
+}
+
+/*.front .name {
+	font-size: 2em;
+	display: inline-block;
+	background: rgba(33, 33, 33, 0.9);
+	color: #f8f8f8;
+	font-family: Courier;
+	padding: 5px 10px;
+	border-radius: 5px;
+	bottom: 60px;
+	left: 25%;
+	position: absolute;
+	text-shadow: 0.1em 0.1em 0.05em #333;
+
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+	transform: rotate(-20deg);
+}*/
+
+/*.back-logo {
+	position: absolute;
+	top: 40px;
+	left: 90px;
+	width: 160px;
+	height: 117px;
+	background: url(http://davidwalsh.name/demo/logo.png) 0 0 no-repeat;
+}
+*/
+/*.back-title {
+	font-weight: bold;
+	color: #00304a;
+	position: absolute;
+	top: 180px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	text-shadow: 0.1em 0.1em 0.05em #acd7e5;
+	font-family: Courier;
+	font-size: 2em;
+}
+*/
+/*.back p {
+	position: absolute;
+	bottom: 40px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	padding: 0 20px;
+  font-family: arial;
+  line-height: 2em;
+}*/
