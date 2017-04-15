@@ -103,6 +103,9 @@ body {
 	font-weight: 1000;
     color: black;
 }
+.navCont{
+	background-color: white !important;
+}
 
 
 .navbar-brand {
