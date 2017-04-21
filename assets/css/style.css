@@ -350,7 +350,7 @@ body {
 
 /* Gallery */
 .gallery {
-	margin-top: 30px;
+	margin-top: 4%;
 }
 
 /*.gallery img:hover {
@@ -358,10 +358,10 @@ body {
 }*/
 
 .portImage{
-	max-height: 220px; 
-	max-width: 380px;
-	min-height:220px; 
-	min-width:380px;
+	max-height: 250px; 
+	max-width: 400px;
+	min-height:250px; 
+	min-width:400px;
 	/*margin: 5%;*/
 	background-size: auto;
 }
