@@ -88,6 +88,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 15px;
+    /*font-size: 2.5vw;*/
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
@@ -351,6 +352,12 @@ body {
 /* Gallery */
 .gallery {
 	margin-top: 4%;
+}
+
+/* portGallery */
+.portGallery{
+	margin-right: 0%;
+	margin-left: 0%;
 }
 
 /*.gallery img:hover {
