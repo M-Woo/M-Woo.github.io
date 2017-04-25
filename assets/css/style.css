@@ -27,6 +27,19 @@
 .icon2:hover {
     background-color: red;
 }
+
+
+.iconBot:hover{
+	/*background-color: white;*/
+}
+
+
+
+/* ==========================================================================
+   About Image
+   ========================================================================== */
+
+
 /* ==========================================================================
    Resume Button
    ========================================================================== */
@@ -331,15 +344,20 @@ body {
 }
 
 .aboutImage{
+	margin-top: 5%;
 	max-height: 200px;
 	max-width: 200px;
 	border-radius: 200px;
+	filter: grayscale(100%);
+}
+.aboutImage:hover{
+	filter: grayscale(0%);
 }
 .aboutText{
 	padding-bottom: 20px;
 }
 .aboutPara{
-	padding-top: 5%;
+	/*padding-top: 5%;*/
 }
 .skillText{
 	padding-bottom: 20px;
