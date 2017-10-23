@@ -146,8 +146,18 @@ body {
 }
 
 .navbar-nav{
-	margin-left: 33%;
+	/*margin-left: 33%;*/
 	font-size: 18px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
 }
 
 /* ==========================================================================
@@ -517,3 +527,6 @@ body {
   font-family: arial;
   line-height: 2em;
 }*/
+
+
+
