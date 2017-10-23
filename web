@@ -47,7 +47,7 @@
 				<div class="col-lg-6 col-lg-offset-3">
 					<h1 id="head" style="letter-spacing: 15px">Mark Woo</h1>
 					<hr>
-					<h4>Web Developer . Filmmaker . Storyteller</h4>
+					<h4>Web Developer</h4>
 					<input type="button" class="btn btn-default resumeBtn" value="Resume" onclick="window.open('https://drive.google.com/file/d/0ByQ-FJ-4RjQnMEVnZU9WVXR2WUU/view?usp=sharing','_blank')">
 					<input type="button" class="btn btn-default resumeBtn" value="Plain-Text Resume" onclick="window.open('https://drive.google.com/open?id=0ByQ-FJ-4RjQnT3VvQ2V4cTVPMTA','_blank')">
 					<hr>
