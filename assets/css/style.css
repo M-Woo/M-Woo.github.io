@@ -205,15 +205,15 @@ body {
     background-size: contain;
 }
 
-#headerwrap2 {
-	background: url(http://res.cloudinary.com/dy6bqhnor/image/upload/v1492108381/paint-splatter-8_copy_xjaxdn.png) no-repeat center top;
+#headerwrap1 {
+	/*background: url(http://res.cloudinary.com/dy6bqhnor/image/upload/v1492108381/paint-splatter-8_copy_xjaxdn.png) no-repeat center top;*/
 	margin-top: 100px;
 	/*padding-top: 220px;*/
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
 	/*min-height: 650px;*/
-	height: 100vh;
+	height: 11vh;
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -256,7 +256,7 @@ body {
 	background-attachment: relative;
 	background-position: center center;
 	/*min-height: 650px;*/
-	height: 60vh;
+	height: 70vh;
 	/*width: 100%;*/
 	
     -webkit-background-size: 100%;
@@ -279,7 +279,21 @@ body {
 	font-weight: 800;
 }
 
+#headerwrap1 h1 {
+	color:black;
+	/*padding-top: -100px;*/
+	padding-bottom: 5px;
+	letter-spacing: 4px;
+	font-size: 80px;
+	font-weight: 800;
+}
+
 #headerwrap h4 {
+	font-weight: 400;
+	color: black
+}
+
+#headerwrap1 h4 {
 	font-weight: 400;
 	color: black
 }
