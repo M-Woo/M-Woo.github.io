@@ -164,6 +164,7 @@ body {
    misc
    ========================================================================== */
 .portCont{
+	/*padding-top: 30px;*/
 	height: 100vh;
 }
 .techCont{
@@ -171,7 +172,7 @@ body {
 }
 
 .aboutCont{
-	padding-top: 30px;
+	padding-top: 100px;
 	height: 100vh;
 }
 
@@ -214,7 +215,7 @@ body {
 	background-attachment: relative;
 	background-position: center center;
 	/*min-height: 650px;*/
-	height: 11vh;
+	height: 30vh;
 	width: 100%;
 	
     -webkit-background-size: 100%;
