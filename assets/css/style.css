@@ -191,7 +191,7 @@ body {
 	background-attachment: relative;
 	background-position: center center;
 	/*min-height: 650px;*/
-	height: 100vh;
+	height: 75vh;
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -285,8 +285,8 @@ body {
 }
 
 #social {
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	background-color: #f2f2f2;
 }
 
@@ -300,8 +300,8 @@ body {
 }
 
 #footerwrap {
-	padding-top: 70px;
-	padding-bottom: 50px;
+	padding-top: 20px;
+	padding-bottom: 10px;
 	background-color: #2f2f2f;
 }
 
