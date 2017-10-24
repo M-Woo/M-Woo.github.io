@@ -155,6 +155,10 @@ body {
 	color: white;
 }
 
+.navbar-default .navbar-nav > li > a:hover {
+	color: #1abc9c;
+}
+
 .navbar-nav{
 	/*margin-left: 33%;*/
 	font-size: 18px;
@@ -268,7 +272,7 @@ body {
 	background-attachment: relative;
 	background-position: center center;
 	/*min-height: 650px;*/
-	height: 70vh;
+	height: 90vh;
 	/*width: 100%;*/
 	
     -webkit-background-size: 100%;
