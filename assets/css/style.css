@@ -107,9 +107,13 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 #head{
-	font-family: 'Amatic SC', cursive !important;
+	font-family: 'Amatic SC', !important;
 	/*font-weight: 800 !important;*/
 	letter-spacing: 10px !important;
+}
+
+#head a{
+	text-decoration: none;
 }
 
  h1, h2, h3, h4, h5, h6, p, a, input {
@@ -309,17 +313,21 @@ body {
    background:#999;
 	padding-top: 15px;
 	padding-bottom: 20px;
-	background-color: #f2f2f2;
+	background-color: white;
+	opacity: 0.5
 }
 
 #social i {
 	font-size: 40px;
-	color: #4a4a4a
+	color: #1abc9c;
+	/*color: #4a4a4a*/
 }
 
 #social i:hover {
-	color: #1abc9c
+	/*color: #1abc9c*/
+	color: #4a4a4a;
 }
+
 
 #footerwrap {
 	   position:fixed;
