@@ -170,9 +170,10 @@ body {
 	height: 60vh;
 }
 
-/*.aboutCont{
+.aboutCont{
+	padding-top: 30px;
 	height: 100vh;
-}*/
+}
 
 
 
