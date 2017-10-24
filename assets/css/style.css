@@ -121,6 +121,11 @@ body {
 	font-weight: 1000;
     color: black;
 }
+
+#headwrap h4{
+	text-decoration: none;
+}
+
 .navCont{
 	background-color: white !important;
 }
