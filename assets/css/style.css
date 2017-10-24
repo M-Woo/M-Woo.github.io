@@ -191,7 +191,7 @@ body {
 	background-attachment: relative;
 	background-position: center center;
 	/*min-height: 650px;*/
-	height: 85vh;
+	height: 80vh;
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -299,8 +299,14 @@ body {
 }
 
 #social {
-	padding-top: 30px;
-	padding-bottom: 30px;
+   position:fixed;
+   left:0px;
+   bottom:10px;
+   height:110px;
+   width:100%;
+   background:#999;
+	padding-top: 15px;
+	padding-bottom: 20px;
 	background-color: #f2f2f2;
 }
 
@@ -314,6 +320,12 @@ body {
 }
 
 #footerwrap {
+	   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:50px;
+   width:100%;
+   background:#999;
 	padding-top: 20px;
 	padding-bottom: 10px;
 	background-color: #2f2f2f;
