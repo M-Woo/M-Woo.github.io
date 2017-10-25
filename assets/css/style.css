@@ -179,7 +179,7 @@ body {
    ========================================================================== */
 .portCont{
 	/*padding-top: 30px;*/
-	height: 100vh;
+	height: 100%;
 }
 .techCont{
 	height: 60vh;
@@ -415,12 +415,12 @@ body {
 .portText{
 	padding-bottom: 20px;
 }
-.port{
+/*.port{
 	filter: grayscale(100%);
 }
 .port:hover{
 	filter: grayscale(0%);
-}
+}*/
 
 .aboutImage{
 	margin-top: 5%;
