@@ -98,8 +98,8 @@
 
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
     font-size: 15px;
     /*font-size: 2.5vw;*/
 
@@ -107,18 +107,24 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 #head{
-	font-family: 'Amatic SC', !important;
-	/*font-weight: 800 !important;*/
-	letter-spacing: 10px !important;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 100;
+	letter-spacing: 15px !important;
 }
 
 #head a{
 	text-decoration: none;
 }
-
+/*
  h1, h2, h3, h4, h5, h6, p, a, input {
 	font-family: 'Julius Sans One', sans-serif !important;
 	font-weight: 1000;
+    color: black;
+}*/
+
+ h1, h2, h3, h4, h5, h6, p, a, input {
+	font-family: 'Josefin Sans', sans-serif;
+	/*font-weight: 100;*/
     color: black;
 }
 
@@ -251,7 +257,7 @@ body {
 	background-attachment: relative;
 	background-position: center center;
 	/*min-height: 650px;*/
-	height: 100vh;
+	height: 120vh;
 	/*width: 100%;*/
 	
     -webkit-background-size: 100%;
@@ -340,12 +346,12 @@ body {
 
 
 #footerwrap {
-	   position:fixed;
-   left:0px;
-   bottom:0px;
-   height:50px;
-   width:100%;
-   /*background:#999;*/
+	position:fixed;
+    left:0px;
+    bottom:0px;
+    height:50px;
+    width:100%;
+    /*background:#999;*/
 	padding-top: 20px;
 	padding-bottom: 10px;
 	/*background-color: #2f2f2f;*/
@@ -354,6 +360,50 @@ body {
 #footerwrap p {
 	color: black;
 	margin-left: 10px;
+}
+
+#bottom {
+	background-color: black;
+	overflow: hidden;
+    bottom: 100;
+    width: 100%;
+    /*clear: both;*/
+    position: relative;
+    /*z-index: 10;*/
+    height: 10em;
+    margin-top: -10em;
+}
+
+#bottom p {
+	color: white;
+	margin-top: 4%;
+}
+
+#contactWrap {
+	/*background: url(http://res.cloudinary.com/dy6bqhnor/image/upload/v1492108869/paint-splatter-1_copy_ciugyc.png) no-repeat center top;*/
+	/*margin-top: 100px;*/
+	/*padding-top: 220px;*/
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	/*min-height: 650px;*/
+	height: 120vh;
+	/*width: 100%;*/
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+
+}
+
+#contactWrap h1 {
+	text-align: center;;
 }
 
 #workwrap {	
