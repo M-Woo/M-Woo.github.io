@@ -307,7 +307,18 @@ body {
 	padding-bottom: 5px;
 	letter-spacing: 4px;
 	font-size: 80px;
-	font-weight: 800;
+	/*font-weight: 800;*/
+}
+
+#headerwrap2 h1 {
+	margin-top: 200px;
+	text-align: center;
+	color:black;
+	/*padding-top: -100px;*/
+	padding-bottom: 5px;
+	letter-spacing: 4px;
+	font-size: 40px;
+	/*font-weight: 800;*/
 }
 
 #headerwrap h4 {
@@ -647,6 +658,20 @@ body {
   line-height: 2em;
 }*/
 
+.parallax {
+    /* The image used */
+    background-image: url("https://res.cloudinary.com/dy6bqhnor/image/upload/v1522365328/_MG_6167-3_brednx.jpg");
+
+    /* Set a specific height */
+    min-height: 400px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .parallax1 {
     /* The image used */
@@ -667,7 +692,7 @@ body {
     background-image: url("http://res.cloudinary.com/dy6bqhnor/image/upload/v1522363414/adult-bridal-bride-341372_gc63yg.jpg");
 
     /* Set a specific height */
-    min-height: 200px; 
+    min-height: 250px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -681,7 +706,21 @@ body {
     background-image: url("http://res.cloudinary.com/dy6bqhnor/image/upload/v1522361682/Capture_-_Copy_eat11d.jpg");
 
     /* Set a specific height */
-    min-height: 200px; 
+    min-height: 250px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax4 {
+    /* The image used */
+    background-image: url("http://res.cloudinary.com/dy6bqhnor/image/upload/v1522364578/adults-bride-celebration-388238_mtwugm.jpg");
+
+    /* Set a specific height */
+    min-height: 250px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
