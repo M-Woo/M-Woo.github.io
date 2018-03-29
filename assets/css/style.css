@@ -257,7 +257,7 @@ body {
 	background-attachment: relative;
 	background-position: center center;
 	/*min-height: 650px;*/
-	height: 120vh;
+	height: 140vh;
 	/*width: 100%;*/
 	
     -webkit-background-size: 100%;
@@ -647,5 +647,47 @@ body {
   line-height: 2em;
 }*/
 
+
+.parallax1 {
+    /* The image used */
+    background-image: url("http://res.cloudinary.com/dy6bqhnor/image/upload/v1522363674/adult-beach-black-and-white-273918_p44w3i.jpg");
+
+    /* Set a specific height */
+    min-height: 400px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("http://res.cloudinary.com/dy6bqhnor/image/upload/v1522363414/adult-bridal-bride-341372_gc63yg.jpg");
+
+    /* Set a specific height */
+    min-height: 200px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url("http://res.cloudinary.com/dy6bqhnor/image/upload/v1522361682/Capture_-_Copy_eat11d.jpg");
+
+    /* Set a specific height */
+    min-height: 200px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
