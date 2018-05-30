@@ -18,6 +18,21 @@ $('a[href*="#"]:not([href="#"])').click(function() {
 });
 
 
+(function($) {          
+    $(document).ready(function(){                    
+        $(window).scroll(function(){                          
+            if ($(this).scrollTop() > 600) {
+                $('#menu').fadeIn(1000);
+            } else {
+                $('#menu').fadeOut(1000);
+            }
+        });
+    });
+})(jQuery);
+
+
+
+
 window.addEventListener('message', function(e) {
   var data = e.data.split('-'),
     scroll_height = data[0],

@@ -23,7 +23,7 @@
 </head>
 <body>
     <!-- Static navbar -->
-    <div class="navbar navbar-default navbar-fixed-top navCont" role="navigation">
+    <div id='navWrap' class="navbar navbar-default navbar-fixed-top navCont" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -32,13 +32,17 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <!-- <a class="navbar-brand" href="#">LOGO</a> -->
+          <a class="navbar-brand" href="index.html"><h1>MARK WOO FILMS</h1></a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <!-- <li><a href="#home">Home</a></li> -->
+            <li><a href="#home">HOME</a></li>
+            <li><a style='text-decoration: none', href="video.html">WORK</a></li>
+            <li><a style='text-decoration: none', onclick="window.open('https://www.flickr.com/photos/markwoo/albums/72157661598244107','_blank')">PHOTO</a></li>
+            <li><a style='text-decoration: none', href="web.html">WEB DEV</a></li>
+            <li><a style='text-decoration: none', href='about.html'>ABOUT</a></li>
           </ul>
-        </div><!--/.nav-collapse -->
+        </div>
       </div>
     </div>
 
@@ -47,8 +51,8 @@
 	    <div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<h1 id="head">MARK WOO FILMS</h1>
-					<hr>
+					<!-- <h1 id="head">MARK WOO FILMS</h1> -->
+					<!-- <hr>
 					<h4>
 						<a style='text-decoration: none', href="index.html">HOME</a> .
 						<a style='text-decoration: none', href="video.html">WORK</a> . 
@@ -57,11 +61,14 @@
 						<a style='text-decoration: none', href='about.html'>ABOUT</a>
 
 					</h4>
-					<hr>
+					<hr> -->
 				</div>
-			</div><! --/row -->
-	    </div> <!-- /container -->
+			</div>
+	    </div> 
 
+
+	   
+<hr>
 
 	<!-- REEL -->
 
@@ -79,16 +86,16 @@
 	<div id="social">
 		<div class="container">
 			<div class="row centered">
-				<div class="col-xs-3">
+				<div class="col-xs-1">
 					<a  href="mailto:MarkChiWoo@gmail.com"><i class="fa fa-envelope iconBot" style="font-size:36px"></i></a>
 				</div>
-				<div class="col-xs-3">
+				<div class="col-xs-1">
 					<a  onclick="window.open('https://www.instagram.com/markchiwoo/','_blank')"><i class="fab fa-instagram" style="font-size:36px"></i></a>
 				</div>
-				<div class="col-xs-3">
+				<div class="col-xs-1">
 					<a onclick="window.open('http://www.linkedin.com/in/markchiwoo','_blank')"><i class="fab fa-linkedin iconBot" style="font-size:36px"></i></a>
 				</div>
-				<div class="col-xs-3">
+				<div class="col-xs-1">
 					<a onclick="window.open('https://github.com/M-Woo','_blank')"><i class="fab fa-github iconBot" style="font-size:36px"></i></a>
 				</div>
 			
@@ -103,9 +110,22 @@
 		<div class="container">
 			<div class="row centered">
 
-				<div class="col-lg-12 text-center">
-					<p>&copy; Mark Woo 2018</p>
+				<div class="col-xs-1">
+					<a  href="mailto:MarkChiWoo@gmail.com"><i class="fa fa-envelope iconBot" style="font-size:36px"></i></a>
 				</div>
+				<div class="col-xs-1">
+					<a  onclick="window.open('https://www.instagram.com/markchiwoo/','_blank')"><i class="fab fa-instagram" style="font-size:36px"></i></a>
+				</div>
+				<div class="col-xs-1">
+					<a onclick="window.open('http://www.linkedin.com/in/markchiwoo','_blank')"><i class="fab fa-linkedin iconBot" style="font-size:36px"></i></a>
+				</div>
+				<div class="col-xs-1">
+					<a onclick="window.open('https://github.com/M-Woo','_blank')"><i class="fab fa-github iconBot" style="font-size:36px"></i></a>
+				</div>
+
+				<div class="col-lg-1 text-center">
+					<p>&copy; Mark Woo 2018</p>
+				</div>			
 
 			</div>
 		</div>

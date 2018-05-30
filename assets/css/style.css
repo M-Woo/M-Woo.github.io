@@ -160,13 +160,13 @@ body {
 }
 */
 .navbar-default .navbar-nav > li > a {
-	color: Black;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
 	color: #1abc9c;
 }
 
+/*.navbar-default .navbar-nav > li > a:hover {
+	color: #1abc9c;
+}
+*/
 .navbar-nav{
 	/*margin-left: 33%;*/
 	font-size: 18px;
@@ -179,7 +179,12 @@ body {
 }
 
 .navbar .navbar-collapse {
-  text-align: center;
+  text-align: right;
+  margin-top: 25px;
+}
+
+#menu {
+	display: none;
 }
 
 /* ==========================================================================
@@ -207,6 +212,11 @@ body {
    Wrap Sections
    ========================================================================== */
 
+#navWrap{
+	margin-top: 10px;
+}
+
+
 #headerwrap {
 	/*background: url(http://res.cloudinary.com/dy6bqhnor/image/upload/v1492108381/paint-splatter-8_copy_xjaxdn.png) no-repeat center top;*/
 	margin-top: 100px;
@@ -215,7 +225,7 @@ body {
 	background-attachment: relative;
 	background-position: center center;
 	/*min-height: 650px;*/
-	height: 80vh;
+	height: 100%;
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -932,6 +942,19 @@ body {
     background-size: contain;
 }
 
+.parallaxAbout {
+    /* The image used */
+    background-image: url("http://res.cloudinary.com/dy6bqhnor/image/upload/v1522362803/P6060362_ail3ux.jpg");
+
+    /* Set a specific height */
+    min-height: 250px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
 /* ==========================================================================
    
