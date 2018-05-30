@@ -14,10 +14,10 @@
 
 
 /* ==========================================================================
-   Skills
+   Tech Skills (Web Dev Page)
    ========================================================================== */
 
-.icon {
+/*.icon {
     padding-left: 25%;
     filter: grayscale(100%);
 }
@@ -26,12 +26,12 @@
 }
 .icon2:hover {
     background-color: red;
-}
+}*/
 
-
+/*
 .iconBot:hover{
-	/*background-color: white;*/
-}
+	background-color: white;
+}*/
 
 
 
@@ -92,6 +92,7 @@
 	margin-bottom: 80px;
 }
 
+
 /* ==========================================================================
    General styles
    ========================================================================== */
@@ -115,6 +116,7 @@ body {
 #head a{
 	text-decoration: none;
 }
+
 /*
  h1, h2, h3, h4, h5, h6, p, a, input {
 	font-family: 'Julius Sans One', sans-serif !important;
@@ -249,6 +251,88 @@ body {
     background-size: contain;
 }
 
+#headerwrap2 {
+	/*margin-top: 100px;*/
+	/*padding-top: 220px;*/
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	/*min-height: 650px;*/
+	height: 55vh;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+}
+
+#headerwrap h1 {
+	color:black;
+	/*padding-top: -100px;*/
+	padding-bottom: 5px;
+	letter-spacing: 4px;
+	font-size: 80px;
+	/*font-weight: 800;*/
+}
+
+#headerwrap1 h1 {
+	color:black;
+	/*padding-top: -100px;*/
+	padding-bottom: 5px;
+	letter-spacing: 4px;
+	font-size: 40px;
+	/*font-weight: 800;*/
+}
+
+#headerwrap2 h1 {
+	margin-top: 200px;
+	text-align: center;
+	color:black;
+	/*padding-top: -100px;*/
+	padding-bottom: 5px;
+	letter-spacing: 4px;
+	font-size: 40px;
+	/*font-weight: 800;*/
+}
+
+#headerwrap2 h5 {
+	margin-top: 180px;
+	/*text-align: center;*/
+	/*color:black;*/
+	/*padding-top: -100px;*/
+	/*padding-bottom: 5px;*/
+	/*letter-spacing: 4px;*/
+	/*font-size: 40px;*/
+	/*font-weight: 800;*/
+}
+
+#headerwrap h4 {
+	font-weight: 400;
+	color: black
+}
+
+#headerwrap1 h4 {
+	font-weight: 400;
+	color: black
+}
+
+#headerwrap h4{
+
+}
+
+
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+
+
+
 #portfolioImage{
 	/*background: url(http://res.cloudinary.com/dy6bqhnor/image/upload/v1492108869/paint-splatter-1_copy_ciugyc.png) no-repeat center top;*/
 	/*margin-top: 100px;*/
@@ -270,6 +354,101 @@ body {
     -o-background-size: cover;
     background-size: contain;
 }
+
+#cinematicWrap{
+	/*background: url(http://res.cloudinary.com/dy6bqhnor/image/upload/v1492108869/paint-splatter-1_copy_ciugyc.png) no-repeat center top;*/
+	/*margin-top: 100px;*/
+	/*padding-top: 220px;*/
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	/*min-height: 650px;*/
+	height: 150vh;
+	/*width: 100%;*/
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+}
+
+#investmentWrap{
+	/*background: url(http://res.cloudinary.com/dy6bqhnor/image/upload/v1492108869/paint-splatter-1_copy_ciugyc.png) no-repeat center top;*/
+	/*margin-top: 100px;*/
+	/*padding-top: 220px;*/
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	/*min-height: 650px;*/
+	height: 250vh;
+	/*width: 100%;*/
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+}
+
+.row{
+		margin-left:50;
+	margin-right:50;
+}
+
+#aboutWrapWedding{
+	/*background: url(http://res.cloudinary.com/dy6bqhnor/image/upload/v1492108869/paint-splatter-1_copy_ciugyc.png) no-repeat center top;*/
+	/*margin-top: 100px;*/
+	/*padding-top: 220px;*/
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	/*min-height: 650px;*/
+	height: 110vh;
+	/*width: 100%;*/
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+}
+
+#contactWrapWedding {
+	/*background: url(http://res.cloudinary.com/dy6bqhnor/image/upload/v1492108869/paint-splatter-1_copy_ciugyc.png) no-repeat center top;*/
+	/*margin-top: 100px;*/
+	/*padding-top: 220px;*/
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	/*min-height: 650px;*/
+	height: 100vh;
+	/*width: 100%;*/
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+
+}
+
 #skillsImage{
 	/*background: url(http://res.cloudinary.com/dy6bqhnor/image/upload/v1492109779/skills_image_hvn7el.png) no-repeat center top;*/
 	/*margin-top: 100px;*/
@@ -292,44 +471,6 @@ body {
     background-size: cover;
 }
 
-#headerwrap h1 {
-	color:black;
-	/*padding-top: -100px;*/
-	padding-bottom: 5px;
-	letter-spacing: 4px;
-	font-size: 80px;
-	font-weight: 800;
-}
-
-#headerwrap1 h1 {
-	color:black;
-	/*padding-top: -100px;*/
-	padding-bottom: 5px;
-	letter-spacing: 4px;
-	font-size: 80px;
-	/*font-weight: 800;*/
-}
-
-#headerwrap2 h1 {
-	margin-top: 200px;
-	text-align: center;
-	color:black;
-	/*padding-top: -100px;*/
-	padding-bottom: 5px;
-	letter-spacing: 4px;
-	font-size: 40px;
-	/*font-weight: 800;*/
-}
-
-#headerwrap h4 {
-	font-weight: 400;
-	color: black
-}
-
-#headerwrap1 h4 {
-	font-weight: 400;
-	color: black
-}
 
 #social {
    position:fixed;
@@ -485,9 +626,9 @@ body {
 
 .aboutImage{
 	margin-top: 5%;
-	max-height: 200px;
-	max-width: 200px;
-	border-radius: 200px;
+	max-height: 300px;
+	max-width: 300px;
+	border-radius: 5%;
 	/*filter: grayscale(100%);*/
 }
 /*.aboutImage:hover{
@@ -535,7 +676,7 @@ body {
 	margin-left: 15%;
 }
 
-/*FLIP ANIMATION*/
+/*FLIP ANIMATION-----------------------------------------------------------------*/
 
 .flip-container {
   -webkit-perspective: 1000;
@@ -658,6 +799,11 @@ body {
   line-height: 2em;
 }*/
 
+/* ==========================================================================
+   Wedding Parallax
+   ========================================================================== */
+
+
 .parallax {
     /* The image used */
     background-image: url("https://res.cloudinary.com/dy6bqhnor/image/upload/v1522365328/_MG_6167-3_brednx.jpg");
@@ -679,6 +825,20 @@ body {
 
     /* Set a specific height */
     min-height: 400px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax11 {
+    /* The image used */
+    background-image: url("http://res.cloudinary.com/dy6bqhnor/image/upload/v1527654131/adult-beautiful-blur-219776_hqhfwo.jpg");
+
+    /* Set a specific height */
+    min-height: 250px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -715,7 +875,36 @@ body {
     background-size: cover;
 }
 
+.parallax33 {
+    /* The image used */
+    background-image: url("http://res.cloudinary.com/dy6bqhnor/image/upload/v1527656427/adult-beautiful-blur-302028_ykmzc2.jpg");
+
+    /* Set a specific height */
+    min-height: 250px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 .parallax4 {
+    /* The image used */
+    background-image: url("http://res.cloudinary.com/dy6bqhnor/image/upload/v1527656421/bride-couple-groom-51322_wrtesx.jpg");
+
+    /* Set a specific height */
+    min-height: 250px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax5 {
     /* The image used */
     background-image: url("http://res.cloudinary.com/dy6bqhnor/image/upload/v1522364578/adults-bride-celebration-388238_mtwugm.jpg");
 
@@ -729,4 +918,22 @@ body {
     background-size: cover;
 }
 
+.parallaxWeb1 {
+    /* The image used */
+    background-image: url("https://res.cloudinary.com/dy6bqhnor/image/upload/v1527652742/seattle_skyline_x8xru5_vk9xr6.png");
+
+    /* Set a specific height */
+    min-height: 600px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+/* ==========================================================================
+   
+   ========================================================================== */
 
