@@ -89,7 +89,7 @@
 }
 
 .mb {
-	margin-bottom: 80px;
+	margin-bottom: -60px;
 }
 
 
@@ -183,7 +183,7 @@ body {
   margin-top: 25px;
 }
 
-#menu {
+#fade {
 	display: none;
 }
 
@@ -200,7 +200,7 @@ body {
 
 .aboutCont{
 	/*padding-top: 100px;*/
-	height: 100vh;
+	height: 70vh;
 }
 
 
@@ -286,7 +286,7 @@ body {
 	color:black;
 	/*padding-top: -100px;*/
 	padding-bottom: 5px;
-	letter-spacing: 4px;
+	letter-spacing: 6px;
 	font-size: 80px;
 	/*font-weight: 800;*/
 }
@@ -295,7 +295,7 @@ body {
 	color:black;
 	/*padding-top: -100px;*/
 	padding-bottom: 5px;
-	letter-spacing: 4px;
+	letter-spacing: 6px;
 	font-size: 40px;
 	/*font-weight: 800;*/
 }
@@ -306,7 +306,7 @@ body {
 	color:black;
 	/*padding-top: -100px;*/
 	padding-bottom: 5px;
-	letter-spacing: 4px;
+	letter-spacing: 6px;
 	font-size: 40px;
 	/*font-weight: 800;*/
 }
@@ -488,11 +488,10 @@ body {
    bottom:10px;
    height:110px;
    width:100%;
-   background:#999;
-	padding-top: 15px;
+   /*background:#999;*/
+	padding-top: 75px;
 	padding-bottom: 20px;
-	background-color: white;
-	opacity: 0.5
+	opacity: 1;
 }
 
 #social i {
@@ -624,8 +623,13 @@ body {
     background-size: cover;
 }
 
-.portText{
+.portText {
 	padding-bottom: 20px;
+	letter-spacing: 6px;
+}
+
+.portText h1{
+	letter-spacing: 6px;
 }
 /*.port{
 	filter: grayscale(100%);
@@ -638,7 +642,7 @@ body {
 	margin-top: 5%;
 	max-height: 300px;
 	max-width: 300px;
-	border-radius: 5%;
+	border-radius: 50%;
 	/*filter: grayscale(100%);*/
 }
 /*.aboutImage:hover{
@@ -646,9 +650,13 @@ body {
 }*/
 .aboutText{
 	padding-bottom: 20px;
+	letter-spacing: 6px;
 }
+
+
 .aboutPara{
-	/*padding-top: 5%;*/
+	line-height: 2;
+	width: 60%;
 }
 .skillText{
 	padding-bottom: 20px;
@@ -944,16 +952,45 @@ body {
 
 .parallaxAbout {
     /* The image used */
-    background-image: url("http://res.cloudinary.com/dy6bqhnor/image/upload/v1522362803/P6060362_ail3ux.jpg");
+    /*background-image: url("https://res.cloudinary.com/dy6bqhnor/image/upload/v1527675142/IMG_8368_yxvo5g.jpg");*/
 
+    /* Set a specific height */
+    background-color: #ADFF2F;
+    min-height: 250px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxHome {
+    /* The image used */
+    /*background-image: url("http://res.cloudinary.com/dy6bqhnor/image/upload/v1522362803/P6060362_ail3ux.jpg");*/
+    background-color: #FFD700;
     /* Set a specific height */
     min-height: 250px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+}
+
+.parallaxWork{
+    /* The image used */
+    /*background-image: url("http://res.cloudinary.com/dy6bqhnor/image/upload/v1522362803/P6060362_ail3ux.jpg");*/
+    background-color: #B0C4DE;
+    /* Set a specific height */
+    min-height: 250px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* ==========================================================================

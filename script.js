@@ -22,9 +22,9 @@ $('a[href*="#"]:not([href="#"])').click(function() {
     $(document).ready(function(){                    
         $(window).scroll(function(){                          
             if ($(this).scrollTop() > 600) {
-                $('#menu').fadeIn(1000);
+                $('#fade').fadeIn(1000);
             } else {
-                $('#menu').fadeOut(1000);
+                $('#fade').fadeOut(1000);
             }
         });
     });
