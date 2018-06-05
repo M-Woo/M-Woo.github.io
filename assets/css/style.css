@@ -219,7 +219,7 @@ body {
 
 #headerwrap {
 	/*background: url(http://res.cloudinary.com/dy6bqhnor/image/upload/v1492108381/paint-splatter-8_copy_xjaxdn.png) no-repeat center top;*/
-	margin-top: 100px;
+	margin-top: 0px;
 	/*padding-top: 220px;*/
 	text-align:center;
 	background-attachment: relative;
@@ -389,7 +389,7 @@ body {
 
 #iframe{
 	margin-bottom: 100px;
-	
+
 }
 
 #aboutImage{
