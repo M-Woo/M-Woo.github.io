@@ -365,6 +365,28 @@ body {
     background-size: contain;
 }
 
+#homeImage{
+	/*background: url(http://res.cloudinary.com/dy6bqhnor/image/upload/v1492108869/paint-splatter-1_copy_ciugyc.png) no-repeat center top;*/
+	/*margin-top: 100px;*/
+	/*padding-top: 220px;*/
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	/*min-height: 650px;*/
+	height: 100vh;
+	/*width: 100%;*/
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+}
+
 #aboutImage{
 	/*background: url(http://res.cloudinary.com/dy6bqhnor/image/upload/v1492108869/paint-splatter-1_copy_ciugyc.png) no-repeat center top;*/
 	/*margin-top: 100px;*/
@@ -557,7 +579,8 @@ body {
 	margin-top: 4%;
 }
 
-#bottom i {
+#bottom .footIcon i {
+	
 	margin-top: 10px;
 }
 
