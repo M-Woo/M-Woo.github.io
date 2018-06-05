@@ -387,6 +387,10 @@ body {
     background-size: contain;
 }
 
+#iframe{
+	padding-top: 10%;
+}
+
 #aboutImage{
 	/*background: url(http://res.cloudinary.com/dy6bqhnor/image/upload/v1492108869/paint-splatter-1_copy_ciugyc.png) no-repeat center top;*/
 	/*margin-top: 100px;*/
