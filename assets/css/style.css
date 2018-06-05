@@ -483,7 +483,7 @@ body {
 
 
 #social {
-   position:fixed;
+   /*position:fixed;*/
    left:0px;
    bottom:10px;
    height:110px;
@@ -496,13 +496,13 @@ body {
 
 #social i {
 	font-size: 40px;
-	color: #1abc9c;
+	/*color: #1abc9c;*/
 	/*color: #4a4a4a*/
 }
 
 #social i:hover {
-	/*color: #1abc9c*/
-	color: #4a4a4a;
+	color: grey
+	/*color: #4a4a4a;*/
 }
 
 
@@ -964,7 +964,7 @@ body {
 
     /* Set a specific height */
     background-color: white;
-    min-height: 250px; 
+    min-height: 150px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -978,7 +978,7 @@ body {
     /*background-image: url("http://res.cloudinary.com/dy6bqhnor/image/upload/v1522362803/P6060362_ail3ux.jpg");*/
     background-color: white;
     /* Set a specific height */
-    min-height: 250px; 
+    min-height: 150px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -992,7 +992,7 @@ body {
     /*background-image: url("http://res.cloudinary.com/dy6bqhnor/image/upload/v1522362803/P6060362_ail3ux.jpg");*/
     background-color: white;
     /* Set a specific height */
-    min-height: 250px; 
+    min-height: 150px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
