@@ -160,7 +160,7 @@ body {
 }
 */
 .navbar-default .navbar-nav > li > a {
-	color: #1abc9c;
+	color: black;
 }
 
 /*.navbar-default .navbar-nav > li > a:hover {
@@ -395,7 +395,7 @@ body {
 	background-attachment: relative;
 	background-position: center center;
 	/*min-height: 650px;*/
-	height: 250vh;
+	height: 240vh;
 	/*width: 100%;*/
 	
     -webkit-background-size: 100%;
@@ -410,7 +410,7 @@ body {
 }
 
 .row{
-		margin-left:50;
+	margin-left:50;
 	margin-right:50;
 }
 
@@ -637,6 +637,14 @@ body {
 .port:hover{
 	filter: grayscale(0%);
 }*/
+
+.aboutImageWedding{
+	margin-top: 5%;
+	max-height: 300px;
+	max-width: 300px;
+	border-radius: 1%;
+	/*filter: grayscale(100%);*/
+}
 
 .aboutImage{
 	margin-top: 5%;
@@ -955,7 +963,7 @@ body {
     /*background-image: url("https://res.cloudinary.com/dy6bqhnor/image/upload/v1527675142/IMG_8368_yxvo5g.jpg");*/
 
     /* Set a specific height */
-    background-color: #ADFF2F;
+    background-color: white;
     min-height: 250px; 
 
     /* Create the parallax scrolling effect */
@@ -968,7 +976,7 @@ body {
 .parallaxHome {
     /* The image used */
     /*background-image: url("http://res.cloudinary.com/dy6bqhnor/image/upload/v1522362803/P6060362_ail3ux.jpg");*/
-    background-color: #FFD700;
+    background-color: white;
     /* Set a specific height */
     min-height: 250px; 
 
@@ -982,7 +990,7 @@ body {
 .parallaxWork{
     /* The image used */
     /*background-image: url("http://res.cloudinary.com/dy6bqhnor/image/upload/v1522362803/P6060362_ail3ux.jpg");*/
-    background-color: #B0C4DE;
+    background-color: white;
     /* Set a specific height */
     min-height: 250px; 
 

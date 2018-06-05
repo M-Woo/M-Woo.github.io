@@ -17,14 +17,26 @@ $('a[href*="#"]:not([href="#"])').click(function() {
   }
 });
 
+// NAVBAR-------------------------------------------------
 
-(function($) {          
+$(function($) { 
+  $(document).ready(function(){
+    $("#nav-placeholder").load("nav.html");
+  });
+})
+
+
+
+
+// TITLE TRANSITION----------------------------------
+
+$(function($) {          
     $(document).ready(function(){                    
         $(window).scroll(function(){                          
             if ($(this).scrollTop() > 600) {
-                $('#fade').fadeIn(1000);
+                $('#fade').fadeIn(1500);
             } else {
-                $('#fade').fadeOut(1000);
+                $('#fade').fadeOut(1500);
             }
         });
     });
@@ -33,54 +45,9 @@ $('a[href*="#"]:not([href="#"])').click(function() {
 
 
 
-window.addEventListener('message', function(e) {
-  var data = e.data.split('-'),
-    scroll_height = data[0],
-    iframe_id = data[1];
-
-  // Check message from which iframe
-  if(iframe_id == 'iframe1')
-    document.getElementById('iframe-container-1').style.height = scroll_height + 'px'; 
-  else if(iframe_id == 'iframe2')
-    document.getElementById('iframe-container-2').style.height = scroll_height + 'px'; 
-} , false);
 
 
 
 
 
-
-
-
-
-
-    $(function(){
-    
-        var iFrames = $('iframe');
-      
-      function iResize() {
-      
-        for (var i = 0, j = iFrames.length; i < j; i++) {
-          iFrames[i].style.height = iFrames[i].contentWindow.document.body.offsetHeight + 'px';}
-          }
-          
-          if ($.browser.safari || $.browser.opera) { 
-          
-             iFrames.load(function(){
-                 setTimeout(iResize, 0);
-               });
-            
-             for (var i = 0, j = iFrames.length; i < j; i++) {
-              var iSource = iFrames[i].src;
-              iFrames[i].src = '';
-              iFrames[i].src = iSource;
-               }
-               
-          } else {
-             iFrames.load(function() { 
-                 this.style.height = this.contentWindow.document.body.offsetHeight + 'px';
-             });
-          }
-        
-        });
 
