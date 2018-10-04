@@ -1055,3 +1055,19 @@ body {
    
    ========================================================================== */
 
+/*Instafeed*/
+
+.instaimg img:hover {
+	opacity:0.8;
+	-moz-opacity:0.8;
+	-webkit-opacity:0.8;
+}
+
+.instaimg img {
+	/*margin: 30px;*/
+	max-width:100%;
+    height:auto;
+    max-height:100%
+}
+
+
