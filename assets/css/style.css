@@ -580,14 +580,23 @@ body {
     margin-top: -10em;
 }
 
-#bottom p {
+/*#bottom p {
 	color: white;
 	margin-top: 4%;
+}*/
+
+#bottom a {
+	margin: 10px;
+}
+
+.nav{
+	margin-top: 15px;
 }
 
 #bottom .footIcon i {
 	
-	margin-top: 10px;
+	margin-top: 50px;
+	margin-right: 10px;
 }
 
 #contactWrap {
