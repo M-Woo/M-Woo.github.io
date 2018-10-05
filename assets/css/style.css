@@ -698,6 +698,7 @@ body {
 }
 
 .portText {
+	/*margin-top: 100%;*/
 	padding-bottom: 20px;
 	letter-spacing: 6px;
 }
