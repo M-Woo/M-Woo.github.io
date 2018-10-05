@@ -85,13 +85,15 @@
 }
 
 .mt {
-	margin-top: 80px;
+	margin-top: 40px;
 }
 
 .mb {
-	margin-bottom: -60px;
+	margin-bottom: -50px;
 }
-
+.mbBot{
+	margin-bottom: 150px;
+}
 
 /* ==========================================================================
    General styles
@@ -737,9 +739,9 @@ body {
 }
 
 
-.aboutPara{
-	line-height: 2;
-	width: 60%;
+.aboutPara {
+	/*line-height: 2;*/
+	/*width: 60%;*/
 }
 .skillText{
 	padding-bottom: 20px;
@@ -772,6 +774,16 @@ body {
 	/*margin: 5%;*/
 	background-size: auto;
 }
+
+.portImagePersonal{
+	max-height: 50px; 
+	max-width: 400px;
+	min-height: 50px; 
+	min-width:400px;
+	/*margin: 5%;*/
+	background-size: auto;
+}
+
 .flipImage{
 	margin: 5%;
 	margin-left: 15%;
