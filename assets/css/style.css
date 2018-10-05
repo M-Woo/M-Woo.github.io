@@ -580,7 +580,7 @@ body {
 }
 
 #bottom {
-	background-color: black;
+	background-color: white;
 	overflow: hidden;
     bottom: 100;
     width: 100%;
@@ -598,6 +598,10 @@ body {
 
 #bottom a {
 	margin: 10px;
+}
+
+#bottom h4:hover{
+	opacity: .3;
 }
 
 .nav{
@@ -1089,5 +1093,28 @@ body {
     height:auto;
     max-height:100%
 }
+
+
+/* ==========================================================================
+   
+   ========================================================================== */
+
+
+  /*work section*/
+
+.bot:hover {
+	opacity:0.3;
+	-moz-opacity:0.3;
+	-webkit-opacity:0.3;
+	transition: .8s ease;
+}
+
+
+.bot {
+  	max-width:100%;
+    height:auto;
+    max-height:100%
+}
+
 
 
