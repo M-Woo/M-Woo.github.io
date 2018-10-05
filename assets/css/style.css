@@ -1102,13 +1102,13 @@ body {
 
   /*work section*/
 
-.bot:hover {
+/*.bot:hover {
 	opacity:0.3;
 	-moz-opacity:0.3;
 	-webkit-opacity:0.3;
 	transition: .8s ease;
 }
-
+*/
 
 .bot {
   	max-width:100%;
@@ -1116,5 +1116,48 @@ body {
     max-height:100%
 }
 
+/*.hvrCont {
+  position: relative;
+  width: 50%;
+}*/
 
+.bot {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hvrCont:hover .bot {
+  transition: .8s ease;
+  opacity: .1;
+}
+
+.top {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background: 
+}
+
+.hvrCont:hover .top {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
