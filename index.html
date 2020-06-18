@@ -7,8 +7,7 @@
 	<link href="assets/css/bootstrap.css" rel="stylesheet">
 	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
 	<link href="assets/css/style.css" rel="stylesheet">
-	<!-- <link href="assets/css/font-awesome.min.css" rel="stylesheet"> -->
-	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
@@ -19,12 +18,17 @@
       type="image/png" 
       href="http://res.cloudinary.com/dy6bqhnor/image/upload/v1508889484/hot-cup-of-coffee-32-246152_jmxaol.png">
 
+    <!-- AOS   -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
 </head>
-
+<!-- 
 <body style="background-color: #FFFFF0;">
-
-<div id="nav-placeholder"></div>
-
+ -->
+<!-- <div id="nav-placeholder"></div> -->
+<div id="header"></div>
 
 <div class="parallaxHome"></div>
 
@@ -105,7 +109,7 @@
 
 
 </div>
-	<div id="bottom">
+	<!-- <div id="bottom">
 		<div class="col-lg-12 text-center nav">
 			<h4><a href="#home" style="color: black; text-decoration: none;">TOP</a></h4>
 			<br>
@@ -114,12 +118,38 @@
 			<a onclick="window.open('http://www.linkedin.com/in/markchiwoo','_blank')"><i class="fab fa-linkedin iconBot" style="font-size:20px; color: black;"></i></a>
 			<a onclick="window.open('https://github.com/M-Woo','_blank')"><i class="fab fa-github iconBot" style="font-size:20px; color: black;"></i></a>
 		</div>
-	</div>
+	</div> -->
 
+<div id="footer"></div>
 
 	
 
+
+
 </body>
+
+
+<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+<script> 
+$(function(){
+  $("#header").load("nav.html"); 
+  $("#footer").load("nav.bottom.html"); 
+});
+</script> 
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+  	duration: 800
+  });
+</script>
+
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
@@ -128,6 +158,10 @@
 <script type="text/javascript" src='script.js'></script>
 
 <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+<script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.26.7'><\/script>".replace("HOST", location.hostname));
+//]]></script>
 
 
 </html>

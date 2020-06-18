@@ -143,7 +143,9 @@ body {
 
 
 .navbar-brand {
-	font-weight: 700;
+	font-weight: 100;
+	font-size: 50px;
+	margin-top: 40px;
 }
 
 .navbar-default .navbar-brand {
@@ -181,8 +183,8 @@ body {
 }
 
 .navbar .navbar-collapse {
-  text-align: right;
-  margin-top: 25px;
+  text-align: center;
+  margin-top: 80px;
 }
 
 #fade {
@@ -215,7 +217,7 @@ body {
    ========================================================================== */
 
 #navWrap{
-	margin-top: 10px;
+	margin-top: 30px;
 }
 
 
@@ -725,9 +727,9 @@ body {
 
 .aboutImage{
 	margin-top: 5%;
-	max-height: 300px;
-	max-width: 300px;
-	border-radius: 50%;
+	max-height: 500px;
+	max-width: 500px;
+	/*border-radius: 50%;*/
 	/*filter: grayscale(100%);*/
 }
 /*.aboutImage:hover{
@@ -1051,7 +1053,7 @@ body {
 
     /* Set a specific height */
     background-color: white;
-    min-height: 150px; 
+    min-height: 200px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -1065,7 +1067,7 @@ body {
     /*background-image: url("http://res.cloudinary.com/dy6bqhnor/image/upload/v1522362803/P6060362_ail3ux.jpg");*/
     background-color: white;
     /* Set a specific height */
-    min-height: 150px; 
+    min-height: 220px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -1079,7 +1081,21 @@ body {
     /*background-image: url("http://res.cloudinary.com/dy6bqhnor/image/upload/v1522362803/P6060362_ail3ux.jpg");*/
     background-color: white;
     /* Set a specific height */
-    min-height: 150px; 
+    min-height: 170px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxPhoto{
+    /* The image used */
+    /*background-image: url("http://res.cloudinary.com/dy6bqhnor/image/upload/v1522362803/P6060362_ail3ux.jpg");*/
+    background-color: white;
+    /* Set a specific height */
+    min-height: 100px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;

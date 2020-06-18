@@ -6,8 +6,9 @@
 	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
 	<link href="assets/css/bootstrap.css" rel="stylesheet">
 	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+	<!-- <link href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" rel="stylesheet"> -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 	<link href="assets/css/style.css" rel="stylesheet">
-	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
@@ -17,14 +18,15 @@
       type="image/png" 
       href="https://res.cloudinary.com/dy6bqhnor/image/upload/v1537318820/Mark-Pic_qkhwvm.jpg">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
 </head>
-<body style="background-color: #FFFFF0;">
+<!-- <body style="background-color: #FFFFF0;"> -->
 
 
     <!-- Static navbar -->
-    <div id="nav-placeholder"></div>
-
+    <div id="header"></div>
 
 	<div class="parallaxAbout"></div>
 
@@ -34,22 +36,38 @@
 <section id="about"></section>
 	<div id="aboutImage" class="container aboutCont">
 		<div class="row centered mt mb">
-			<h1 class="aboutText">ABOUT</h1>
-			<hr>
+			<!-- <h1 class="aboutText">ABOUT</h1> -->
+			<!-- <hr> -->
 		</div>
-		<div class="col-lg-6 col-md-6 col-sm-6">
+		<div class="col-lg-6 col-md-6 col-sm-12">
 			<div class="row centered mt mb">
-				 <img class="aboutImage" src="https://res.cloudinary.com/dy6bqhnor/image/upload/v1537318820/Mark-Pic_qkhwvm.jpg">
+				 <img class="aboutImage" src="https://res.cloudinary.com/dy6bqhnor/image/upload/v1592485646/IMG_1841_x6hlb4.jpg">
 			</div>
 		</div>
-		<div class="col-lg-6 col-md-6 col-sm-6">
-			<div class="row centered mt mb aboutPara">	
-				<h3 style="line-height: 2; letter-spacing: 6px;">Mark Chi-Sun Woo // Editor</h3>
-				<h5 style="line-height: 2;">Mark is a highly motivated and collaborative filmmaker with extensive experience in storytelling. Having worked for many years in LA as an editor with work ranging from tv, film, and commercials, Mark is experienced in composing visually stimulating and engaging content. He knows that there is no single approach to telling a story so he seeks to tailor a unique and dazzling narrative for his clients.
+		<div class="col-lg-6 col-md-6 col-sm-12">
+			<div class="row centered mt mb aboutPara" style="text-align: left;">	
+				<h3 style="line-height: 2; letter-spacing: 6px;">ABOUT MARK WOO</h3>
+				<h4 style="line-height: 2; letter-spacing: 6px;">EDITOR | DIRECTOR | STORYTELLER</h4>
+				<br>
+				<h4 style="line-height: 2; letter-spacing: 1px;">Mark is a highly motivated and collaborative filmmaker with extensive experience in storytelling. Having worked for many years in LA and Beijing as an editor with work ranging from tv, film, documentary, and commercials, Mark is experienced in composing visually stimulating and engaging content. He knows that there is no single approach to telling a story so he seeks to tailor a unique and dazzling narrative for his clients.
 				</h5>
 				<br>
 				<hr>
-				email \\ <a href="mailto:mark.chi.woo@gmail.com">mark.chi.woo@gmail.com</a>
+				email | <a href="mailto:mark.chi.woo@gmail.com">mark.chi.woo@gmail.com</a>
+				<br>
+
+				<!-- <div>
+				<a href="mailto:MarkChiWoo@gmail.com"><i class="fa fa-envelope iconBot" style="font-size:20px; color: black;"></i></a>
+
+				<a onclick="window.open('https://www.xinpianchang.com/u10654113','_blank')"><i class="fab fa-box-open" style="font-size:20px; color: black;"></i></a>
+
+				<a onclick="window.open('https://www.instagram.com/markchiwoo/','_blank')"><i class="fab fa-instagram" style="font-size:20px; color: black;"></i></a>
+				<a onclick="window.open('http://www.linkedin.com/in/markchiwoo','_blank')"><i class="fab fa-linkedin iconBot" style="font-size:20px; color: black;"></i></a>
+
+				<a onclick="window.open('https://drive.google.com/open?id=0ByQ-FJ-4RjQncXVELTB2TmZiYXc','_blank')"><i class="fab fa-sticky-note" style="font-size:20px; color: black;"></i></a>
+
+				<a onclick="window.open('https://github.com/M-Woo','_blank')"><i class="fab fa-github iconBot" style="font-size:20px; color: black;"></i></a>
+				</div> -->
 				<hr>
 			</div>
 		</div>
@@ -94,19 +112,30 @@
 		</div>
 	</div> -->
 
-	<div id="bottom">
-		<div class="col-lg-12 text-center nav">
-			<h4><a href="#home" style="color: black; text-decoration: none;">TOP</a></h4>
-			<br>
-			<a href="mailto:MarkChiWoo@gmail.com"><i class="fa fa-envelope iconBot" style="font-size:20px; color: black;"></i></a>
-			<a onclick="window.open('https://www.instagram.com/markchiwoo/','_blank')"><i class="fab fa-instagram" style="font-size:20px; color: black;"></i></a>
-			<a onclick="window.open('http://www.linkedin.com/in/markchiwoo','_blank')"><i class="fab fa-linkedin iconBot" style="font-size:20px; color: black;"></i></a>
-			<a onclick="window.open('https://github.com/M-Woo','_blank')"><i class="fab fa-github iconBot" style="font-size:20px; color: black;"></i></a>
-		</div>
-	</div>
-	
 
+	<div id="footer"></div>
+	
 </body>
+
+<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+<script> 
+$(function(){
+  $("#header").load("nav.html"); 
+  $("#footer").load("nav.bottom.html"); 
+});
+</script> 
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+  	duration: 800
+  });
+</script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
