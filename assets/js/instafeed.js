@@ -8,7 +8,7 @@ $(document).ready(function() {
         resolution: 'standard_resolution',
         accessToken: '2130074869.1677ed0.a850e9acb24247658d1f6cbd970d7b3d',
         sortBy: 'most-recent',
-        template: '<div class="col-lg-3 col-md-4 col-sm-6 gallery instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
+        template: '<div class="col-lg-4 col-md-4 col-sm-4 gallery instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
     });
     userFeed.run();
 
