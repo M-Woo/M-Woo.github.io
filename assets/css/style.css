@@ -143,9 +143,14 @@ body {
 
 
 .navbar-brand {
-	font-weight: 100;
+	font-weight: 10;
 	font-size: 50px;
 	margin-top: 40px;
+	padding-top: 00px;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+
 }
 
 .navbar-default .navbar-brand {
