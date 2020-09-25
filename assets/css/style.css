@@ -197,6 +197,10 @@ body {
   margin-top: 80px;
 }
 
+.videoNav:hover {
+	opacity: 0.5;
+}
+
 #fade {
 	display: none;
 }
