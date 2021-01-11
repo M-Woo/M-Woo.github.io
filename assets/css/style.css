@@ -413,7 +413,7 @@ body {
 	background-attachment: relative;
 	background-position: center center;
 	/*min-height: 650px;*/
-	height: 100vh;
+	height: 100%;
 	/*width: 100%;*/
 	
     -webkit-background-size: 100%;
@@ -452,7 +452,7 @@ body {
 	background-attachment: relative;
 	background-position: center center;
 	/*min-height: 650px;*/
-	height: 100vh;
+	height: 100%;
 	/*width: 100%;*/
 	
     -webkit-background-size: 100%;
@@ -804,14 +804,27 @@ body {
 
 /* portGallery */
 .portGallery{
-	/*display: inline-block;*/
+	display: inline-block;
     /*margin: auto;*/
-    object-fit: cover;
-	object-fit: cover;
-	width:  360px;
-    height: 480px;
+    /*object-fit: cover;*/
+	/*width:  1170px;*/
+    /*height: 600px;*/
     /*display: block;*/
 	/*margin: 5%;*/
+	margin-bottom: 5%;
+	background-size: auto;
+}
+
+/* portGallery HOME ENT*/
+.portGallery1{
+	display: inline-block;
+    /*margin: auto;*/
+    /*object-fit: cover;*/
+	/*width:  1170px;*/
+    /*height: 600px;*/
+    /*display: block;*/
+	/*margin: 5%;*/
+	margin-bottom: 5%;
 	background-size: auto;
 }
 
@@ -819,8 +832,8 @@ body {
 	/*display: inline-block;*/
     /*margin: auto;*/
 	object-fit: cover;
-	width:  580px;
-    height: 300px;
+/*	width:  800px;
+    height: 300px;*/
     /*display: block;*/
 	/*margin: 5%;*/
 	background-size: auto;
@@ -1205,6 +1218,7 @@ body {
   	max-width:100%;
     height:auto;
     max-height:100%
+    object-fit: cover;
 }
 
 /*.hvrCont {
