@@ -99,6 +99,9 @@
    General styles
    ========================================================================== */
 
+#imglink a {
+    cursor: pointer;
+    }
 
 body {
     font-family: 'Josefin Sans', sans-serif;
@@ -117,6 +120,7 @@ body {
 
 #head a{
 	text-decoration: none;
+
 }
 
 /*
@@ -788,6 +792,7 @@ body {
 .aboutPara {
 	/*line-height: 2;*/
 	/*width: 60%;*/
+	margin-bottom: 15%;
 }
 .skillText{
 	padding-bottom: 20px;
@@ -820,8 +825,8 @@ body {
 	display: inline-block;
     /*margin: auto;*/
     /*object-fit: cover;*/
-	/*width:  1170px;*/
-    /*height: 600px;*/
+	max-width:  100%;
+    max-height: 100%;
     /*display: block;*/
 	/*margin: 5%;*/
 	margin-bottom: 5%;
