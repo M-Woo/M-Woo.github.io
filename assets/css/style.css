@@ -811,7 +811,7 @@ body {
 .portGallery{
 	display: inline-block;
     /*margin: auto;*/
-    /*object-fit: cover;*/
+    object-fit: cover;
 	/*width:  1170px;*/
     /*height: 600px;*/
     /*display: block;*/
@@ -822,7 +822,7 @@ body {
 
 /* portGallery HOME ENT*/
 .portGallery1{
-	display: inline-block;
+	/*display: inline-block;*/
     /*margin: auto;*/
     /*object-fit: cover;*/
 	max-width:  100%;
@@ -830,7 +830,7 @@ body {
     /*display: block;*/
 	/*margin: 5%;*/
 	margin-bottom: 5%;
-	background-size: auto;
+	/*background-size: 1080px 1920px;*/
 }
 
 .portGallerySide{
@@ -1232,9 +1232,12 @@ body {
 }*/
 
 .bot {
+	background-size: cover;
   display: block;
   width: 100%;
   height: auto;
+  /*max-width: 480px;*/
+  /*max-height: 768px;*/
 }
 
 .hvrCont:hover .bot {
